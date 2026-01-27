@@ -53,6 +53,28 @@
             padding: 20px;
             margin-top: 40px;
         }
+        /* Estilo para links */
+        a {
+            color: #2c7a7b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .download-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: #2c7a7b;
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+        .download-link:hover {
+            background-color: #225e5f;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -68,13 +90,15 @@
     <a href="#pesquisa">Pesquisa</a>
     <a href="#extensao">Extensão</a>
     <a href="#contato">Contato</a>
+    <a href="#explicacao">Aviso</a>
 </nav>
 
 <section id="sobre">
     <div class="card">
         <h2>Sobre o Núcleo</h2>
         <p>
-            O Núcleo de Ensino, Pesquisa e Extensão em Saúde Integrativa e Espiritualidade do Campus de Saúde de Lagarto        liderado pelo docente Tiago Costa Goes,
+            O Núcleo de Ensino, Pesquisa e Extensão em Saúde Integrativa e Espiritualidade do Campus de Saúde de Lagarto
+            liderado pelo docente Tiago Costa Goes,
             tem como objetivo promover a formação acadêmica, a produção científica e ações extensionistas voltadas
             ao cuidado integral do ser humano, integrando ciência, espiritualidade e práticas integrativas em saúde.
         </p>
@@ -99,8 +123,12 @@
             espiritualidade, saúde, bem-estar e qualidade de vida, contribuindo para a produção de conhecimento
             acadêmico e científico.
         </p>
-	<h2>Links de pesquisas publicadas:</h2>
-	<p><strong> https://periodicorease.pro.br/rease/article/view/10208/4131
+        <h2>Links de pesquisas publicadas:</h2>
+        <p>
+            <a href="https://periodicorease.pro.br/rease/article/view/10208/4131" target="_blank">
+                https://periodicorease.pro.br/rease/article/view/10208/4131
+            </a>
+        </p>
     </div>
 </section>
 
@@ -123,15 +151,21 @@
     </div>
 </section>
 
-<section id="Explicação">
+<section id="explicacao">
     <div class="card">
-        <h2></h2>
+        <h2>Aviso</h2>
         <p>
-	Esse não é um site oficial apenas uma simulação feita para fins avaliativos da matéria de Laboratório de Redes da Universidade Federal de Sergipe
+            Este não é um site oficial, apenas uma simulação feita para fins avaliativos da matéria de Laboratório de Redes da Universidade Federal de Sergipe.
+        </p>
+        <h3>Documentação do Projeto de Redes:</h3>
         <p>
+            <a href="Planta-LabRedes.pdf" download class="download-link">
+                📥 Baixar PDF do Projeto (Planta-LabRedes.pdf)
+            </a>
+        </p>
+        <p><small>Tamanho do arquivo: ~1 MB (aprox.)</small></p>
     </div>
 </section>
-
 
 <footer>
     <p>&copy; 2026 - Campus de Saúde de Lagarto | Núcleo de Saúde Integrativa e Espiritualidade</p>
